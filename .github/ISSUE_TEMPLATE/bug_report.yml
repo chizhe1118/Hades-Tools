@@ -1,0 +1,48 @@
+name: Bug report
+description: Report reproducible Hades Tools behavior
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Hades Tools version
+      placeholder: 0.2.6
+    validations:
+      required: true
+  - type: input
+    id: game_build
+    attributes:
+      label: Hades build ID
+      placeholder: 10929685
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - Single EXE
+        - Portable ZIP
+        - Local source build
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the exact actions and active weapon or upgrades.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and logs
+    validations:
+      required: true

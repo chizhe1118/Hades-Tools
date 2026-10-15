@@ -1,0 +1,6 @@
+/build/
+/bridge-build/
+/bridge-dist/
+/dist/
+*.log
+__pycache__/

@@ -1,0 +1,35 @@
+# Local and generated output
+.vs/
+.vscode/
+.idea/
+*.user
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Native build and packages
+native/build/
+native/bridge-build/
+native/bridge-dist/
+native/dist/
+
+# Local game and reverse-engineering artifacts
+*.CT
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.sav
+*.sav.*
+EngineWin64s.dll
+Hades.exe

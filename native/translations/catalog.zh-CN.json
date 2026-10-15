@@ -1,0 +1,2880 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "status": "official-game-zh-CN",
+    "translator": "Argos Translate",
+    "translatorVersion": "1.11.0",
+    "model": "translate-en_zh-1_9",
+    "createdAt": "2026-10-14T12:53:54.818439+00:00",
+    "instructions": "Official zh-CN display names are imported by text key; unmatched runtime identifiers remain unchanged.",
+    "source": "Hades Content/Game/Text/zh-CN",
+    "updatedAt": "2026-10-14T17:06:39.093875+00:00"
+  },
+  "categories": {
+    "loot": {
+      "AphroditeUpgrade": {
+        "en": "Aphrodite",
+        "zh": "阿弗洛狄忒",
+        "source": "game-official-zh-CN"
+      },
+      "AresUpgrade": {
+        "en": "Ares",
+        "zh": "阿瑞斯",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisUpgrade": {
+        "en": "Artemis",
+        "zh": "阿尔忒弥斯",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaUpgrade": {
+        "en": "Athena",
+        "zh": "雅典娜",
+        "source": "game-official-zh-CN"
+      },
+      "BaseLoot": {
+        "en": "Base Loot",
+        "zh": "基地游轮",
+        "source": "split-identifier"
+      },
+      "BaseSoundPackage": {
+        "en": "Base Sound Package",
+        "zh": "基础音源软件包",
+        "source": "split-identifier"
+      },
+      "DemeterUpgrade": {
+        "en": "Demeter",
+        "zh": "得墨忒尔",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusUpgrade": {
+        "en": "Dionysus",
+        "zh": "迪奥尼索司",
+        "source": "game-official-zh-CN"
+      },
+      "HadesUpgrade": {
+        "en": "Hades Upgrade",
+        "zh": "哈迪斯升级",
+        "source": "split-identifier"
+      },
+      "HermesUpgrade": {
+        "en": "Hermes",
+        "zh": "赫尔墨斯",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonUpgrade": {
+        "en": "Poseidon",
+        "zh": "波塞冬",
+        "source": "game-official-zh-CN"
+      },
+      "StackUpgrade": {
+        "en": "Pom of Power",
+        "zh": "力量石榴",
+        "source": "game-official-zh-CN"
+      },
+      "TrialUpgrade": {
+        "en": "Chaos",
+        "zh": "卡俄斯",
+        "source": "game-official-zh-CN"
+      },
+      "WeaponUpgrade": {
+        "en": "Daedalus Hammer",
+        "zh": "狄德勒斯之锤",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusUpgrade": {
+        "en": "Zeus",
+        "zh": "宙斯",
+        "source": "game-official-zh-CN"
+      }
+    },
+    "consumables": {
+      "AmmoPack": {
+        "en": "Bloodstones",
+        "zh": "血石",
+        "source": "game-official-zh-CN"
+      },
+      "AspectRarityDrop": {
+        "en": "Aspect Rarity Drop",
+        "zh": "光谱瑞瑞降",
+        "source": "split-identifier"
+      },
+      "BaseConsumable": {
+        "en": "Base Consumable",
+        "zh": "基础消耗品",
+        "source": "split-identifier"
+      },
+      "BlindBoxLoot": {
+        "en": "Blind Box Loot",
+        "zh": "盲箱窝",
+        "source": "split-identifier"
+      },
+      "BoostedRandomLoot": {
+        "en": "Boosted Random Loot",
+        "zh": "启动随机锁定",
+        "source": "split-identifier"
+      },
+      "CerberusKey": {
+        "en": "Cerberus Key",
+        "zh": "Cerberus 密钥",
+        "source": "split-identifier"
+      },
+      "ChaosWeaponUpgrade": {
+        "en": "Anvil of Fates",
+        "zh": "命运铁砧",
+        "source": "game-official-zh-CN"
+      },
+      "CharonStoreDiscount": {
+        "en": "Loyalty Card",
+        "zh": "忠诚卡牌",
+        "source": "game-official-zh-CN"
+      },
+      "DamageSelfDrop": {
+        "en": "Price of Midas",
+        "zh": "迈达斯的代价",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusGiftDrop": {
+        "en": "Premium Vintage",
+        "zh": "醇香美酒",
+        "source": "game-official-zh-CN"
+      },
+      "EmptyMaxHealthDrop": {
+        "en": "Centaur Soul",
+        "zh": "半人马灵魂",
+        "source": "game-official-zh-CN"
+      },
+      "FallbackMoneyDrop": {
+        "en": "Spare Wealth",
+        "zh": "衣食无忧",
+        "source": "game-official-zh-CN"
+      },
+      "ForbiddenShopItem": {
+        "en": "Forbidden Shop Item",
+        "zh": "禁止商店项目",
+        "source": "split-identifier"
+      },
+      "GemDrop": {
+        "en": "Gemstones",
+        "zh": "宝石",
+        "source": "game-official-zh-CN"
+      },
+      "GemDropRange": {
+        "en": "Gaea's Treasure",
+        "zh": "盖亚宝藏",
+        "source": "game-official-zh-CN"
+      },
+      "GemDropRunProgress": {
+        "en": "Gemstones, Brilliant",
+        "zh": "璀璨宝石",
+        "source": "game-official-zh-CN"
+      },
+      "GiftDrop": {
+        "en": "Nectar",
+        "zh": "蜜露",
+        "source": "game-official-zh-CN"
+      },
+      "GiftDropRunProgress": {
+        "en": "Nectar, Vintage",
+        "zh": "陈年蜜露",
+        "source": "game-official-zh-CN"
+      },
+      "HarvestBoonDrop": {
+        "en": "Rare Crop",
+        "zh": "罕见收获",
+        "source": "game-official-zh-CN"
+      },
+      "HealDropMinor": {
+        "en": "Heal Drop Minor",
+        "zh": "轻度平移",
+        "source": "split-identifier"
+      },
+      "HealDropRange": {
+        "en": "Life Essence",
+        "zh": "生命精华",
+        "source": "game-official-zh-CN"
+      },
+      "HealingPotencyDrop": {
+        "en": "Healing Potency Drop",
+        "zh": "减速",
+        "source": "split-identifier"
+      },
+      "HermesUpgradeDrop": {
+        "en": "Hermes Upgrade Drop",
+        "zh": "Hermes 升级",
+        "source": "split-identifier"
+      },
+      "KeepsakeChargeDrop": {
+        "en": "Night Spindle",
+        "zh": "暗夜纺锤",
+        "source": "game-official-zh-CN"
+      },
+      "LastStandDrop": {
+        "en": "Kiss of Styx",
+        "zh": "冥河之吻",
+        "source": "game-official-zh-CN"
+      },
+      "LastStandDurationDrop": {
+        "en": "Last Stand Duration Drop",
+        "zh": "上一站点时间段",
+        "source": "split-identifier"
+      },
+      "LastStandHealDrop": {
+        "en": "Last Stand Heal Drop",
+        "zh": "上次休止状态",
+        "source": "split-identifier"
+      },
+      "LockKeyDrop": {
+        "en": "Chthonic Keys",
+        "zh": "冥府钥匙",
+        "source": "game-official-zh-CN"
+      },
+      "LockKeyDropRunProgress": {
+        "en": "Chthonic Keys, Fated",
+        "zh": "命运钥匙",
+        "source": "game-official-zh-CN"
+      },
+      "MetaDropRange": {
+        "en": "Tinge of Erebus",
+        "zh": "厄瑞玻斯的气息",
+        "source": "game-official-zh-CN"
+      },
+      "MetaPointSmall": {
+        "en": "Meta Point Small",
+        "zh": "元点小",
+        "source": "split-identifier"
+      },
+      "MinorMoneyDrop": {
+        "en": "Minor Money Drop",
+        "zh": "小钱滴出",
+        "source": "split-identifier"
+      },
+      "MoneyDrop": {
+        "en": "Vast Riches",
+        "zh": "荣华富贵",
+        "source": "game-official-zh-CN"
+      },
+      "RandomKeepsake": {
+        "en": "Random Keepsake",
+        "zh": "随机保留",
+        "source": "split-identifier"
+      },
+      "RandomLoot": {
+        "en": "Random Loot",
+        "zh": "随机锁定",
+        "source": "split-identifier"
+      },
+      "RandomMinorLootDrop": {
+        "en": "Sunken Treasure",
+        "zh": "海底宝藏",
+        "source": "game-official-zh-CN"
+      },
+      "RandomStoreItem": {
+        "en": "Fateful Twist",
+        "zh": "命运的作弄",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardConsolationPrize": {
+        "en": "Red Onion",
+        "zh": "红洋葱",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardHealDrop": {
+        "en": "Room Reward Heal Drop",
+        "zh": "房间奖励",
+        "source": "split-identifier"
+      },
+      "RoomRewardMaxHealthDrop": {
+        "en": "Centaur Heart",
+        "zh": "半人马之心",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardMetaPointDrop": {
+        "en": "Darkness",
+        "zh": "黑暗",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardMetaPointDropRunProgress": {
+        "en": "Darkness, Pitch-Black",
+        "zh": "极致黑暗",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardMoneyDrop": {
+        "en": "Charon's Obol",
+        "zh": "卡戎金币",
+        "source": "game-official-zh-CN"
+      },
+      "StackUpgradeDrop": {
+        "en": "Stack Upgrade Drop",
+        "zh": "堆叠升级",
+        "source": "split-identifier"
+      },
+      "StackUpgradeDropRare": {
+        "en": "Stack Upgrade Drop Rare",
+        "zh": "堆叠升级",
+        "source": "split-identifier"
+      },
+      "StoreRewardConsolationDrop": {
+        "en": "Store Reward Consolation Drop",
+        "zh": "存储奖励安慰",
+        "source": "split-identifier"
+      },
+      "StoreRewardGemDrop": {
+        "en": "Store Reward Gem Drop",
+        "zh": "存储奖励宝石",
+        "source": "split-identifier"
+      },
+      "StoreRewardLockKeyDrop": {
+        "en": "Store Reward Lock Key Drop",
+        "zh": "存储奖励锁键",
+        "source": "split-identifier"
+      },
+      "StoreRewardMetaPointDrop": {
+        "en": "Store Reward Meta Point Drop",
+        "zh": "存储奖励元点投放",
+        "source": "split-identifier"
+      },
+      "StoreRewardRandomStack": {
+        "en": "Store Reward Random Stack",
+        "zh": "存储奖励随机堆栈",
+        "source": "split-identifier"
+      },
+      "StoreTrialUpgradeDrop": {
+        "en": "Store Trial Upgrade Drop",
+        "zh": "存储测试升级",
+        "source": "split-identifier"
+      },
+      "SuperGemDrop": {
+        "en": "Diamond",
+        "zh": "钻石",
+        "source": "game-official-zh-CN"
+      },
+      "SuperGiftDrop": {
+        "en": "Ambrosia",
+        "zh": "仙酒",
+        "source": "game-official-zh-CN"
+      },
+      "SuperLockKeyDrop": {
+        "en": "Titan Blood",
+        "zh": "泰坦之血",
+        "source": "game-official-zh-CN"
+      },
+      "Tier1Consumable": {
+        "en": "Tier1 Consumable",
+        "zh": "第一级 消耗品",
+        "source": "split-identifier"
+      },
+      "WeaponUpgradeDrop": {
+        "en": "Weapon Upgrade Drop",
+        "zh": "武器升级",
+        "source": "split-identifier"
+      }
+    },
+    "resources": {
+      "Gems": {
+        "en": "Gemstones",
+        "zh": "宝石",
+        "source": "game-official-zh-CN"
+      },
+      "GiftPoints": {
+        "en": "Nectar",
+        "zh": "蜜露",
+        "source": "game-official-zh-CN"
+      },
+      "LockKeys": {
+        "en": "Chthonic Keys",
+        "zh": "冥府钥匙",
+        "source": "game-official-zh-CN"
+      },
+      "MetaPoints": {
+        "en": "Darkness",
+        "zh": "黑暗",
+        "source": "game-official-zh-CN"
+      },
+      "SuperGems": {
+        "en": "Diamond",
+        "zh": "钻石",
+        "source": "game-official-zh-CN"
+      },
+      "SuperGiftPoints": {
+        "en": "Ambrosia",
+        "zh": "仙酒",
+        "source": "game-official-zh-CN"
+      },
+      "SuperLockKeys": {
+        "en": "Titan Blood",
+        "zh": "泰坦之血",
+        "source": "game-official-zh-CN"
+      }
+    },
+    "traits": {
+      "AchillesPatroclusAssistTrait": {
+        "en": "Companion Antos",
+        "zh": "安托斯伴偶",
+        "source": "game-official-zh-CN"
+      },
+      "AlphaStrikeTrait": {
+        "en": "Alpha Strike Trait",
+        "zh": "阿尔法攻击轨道",
+        "source": "split-identifier"
+      },
+      "AmmoBoltTrait": {
+        "en": "Lightning Rod",
+        "zh": "引电血统",
+        "source": "game-official-zh-CN"
+      },
+      "AmmoFieldTrait": {
+        "en": "Ammo Field Trait",
+        "zh": "Ammo 战地轨道",
+        "source": "split-identifier"
+      },
+      "AmmoReclaimTrait": {
+        "en": "Quick Reload",
+        "zh": "快速装弹",
+        "source": "game-official-zh-CN"
+      },
+      "AmmoReloadTrait": {
+        "en": "Auto Reload",
+        "zh": "自动填弹",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeDeathTrait": {
+        "en": "Dying Lament",
+        "zh": "夺命挽歌",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeDurationTrait": {
+        "en": "Empty Inside",
+        "zh": "怅然若失",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditePotencyTrait": {
+        "en": "Broken Resolve",
+        "zh": "心旌荡漾",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeRangedBonusTrait": {
+        "en": "Blown Kiss",
+        "zh": "爆裂飞吻",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeRangedTrait": {
+        "en": "Crush Shot",
+        "zh": "倾心一箭",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeRetaliateTrait": {
+        "en": "Wave of Despair",
+        "zh": "邀宠召祸",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeRushTrait": {
+        "en": "Passion Dash",
+        "zh": "激情冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeSecondaryTrait": {
+        "en": "Heartbreak Flourish",
+        "zh": "心碎乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeShoutTrait": {
+        "en": "Aphrodite's Aid",
+        "zh": "阿弗洛狄忒之援",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeWeakenTrait": {
+        "en": "Sweet Surrender",
+        "zh": "拜倒裙下",
+        "source": "game-official-zh-CN"
+      },
+      "AphroditeWeaponTrait": {
+        "en": "Heartbreak Strike",
+        "zh": "心碎攻击",
+        "source": "game-official-zh-CN"
+      },
+      "AresAoETrait": {
+        "en": "Black Metal",
+        "zh": "黑色金属",
+        "source": "game-official-zh-CN"
+      },
+      "AresCursedRiftTrait": {
+        "en": "Vicious Cycle",
+        "zh": "战患轮回",
+        "source": "game-official-zh-CN"
+      },
+      "AresDragTrait": {
+        "en": "Engulfing Vortex",
+        "zh": "漩涡吞噬",
+        "source": "game-official-zh-CN"
+      },
+      "AresHomingTrait": {
+        "en": "Hunting Blades",
+        "zh": "狩猎之刃",
+        "source": "game-official-zh-CN"
+      },
+      "AresLoadCurseTrait": {
+        "en": "Dire Misfortune",
+        "zh": "灭顶之灾",
+        "source": "game-official-zh-CN"
+      },
+      "AresLongCurseTrait": {
+        "en": "Impending Doom",
+        "zh": "不可终日",
+        "source": "game-official-zh-CN"
+      },
+      "AresRangedTrait": {
+        "en": "Slicing Shot",
+        "zh": "旋刀射击",
+        "source": "game-official-zh-CN"
+      },
+      "AresRetaliateTrait": {
+        "en": "Curse of Vengeance",
+        "zh": "复仇诅咒",
+        "source": "game-official-zh-CN"
+      },
+      "AresRushTrait": {
+        "en": "Blade Dash",
+        "zh": "利刃冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "AresSecondaryTrait": {
+        "en": "Curse of Pain",
+        "zh": "痛苦诅咒",
+        "source": "game-official-zh-CN"
+      },
+      "AresShoutTrait": {
+        "en": "Ares' Aid",
+        "zh": "阿瑞斯之援",
+        "source": "game-official-zh-CN"
+      },
+      "AresWeaponTrait": {
+        "en": "Curse of Agony",
+        "zh": "致命诅咒",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisAmmoExitTrait": {
+        "en": "Exit Wounds",
+        "zh": "拔箭留疮",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisBonusProjectileTrait": {
+        "en": "Mirage Shot",
+        "zh": "蜃气射击",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisCriticalTrait": {
+        "en": "Clean Kill",
+        "zh": "干净利落",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisRangedTrait": {
+        "en": "True Shot",
+        "zh": "会心一击",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisReflectBuffTrait": {
+        "en": "Deadly Reversal",
+        "zh": "致命还击",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisRushTrait": {
+        "en": "Hunter Dash",
+        "zh": "猎人冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisSecondaryTrait": {
+        "en": "Deadly Flourish",
+        "zh": "致命乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisShoutBuffTrait": {
+        "en": "Artemis Shout Buff Trait",
+        "zh": "阿尔忒弥斯大呼小叫",
+        "source": "split-identifier"
+      },
+      "ArtemisShoutTrait": {
+        "en": "Artemis' Aid",
+        "zh": "阿尔忒弥斯之援",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisSupportingFireTrait": {
+        "en": "Support Fire",
+        "zh": "火力支援",
+        "source": "game-official-zh-CN"
+      },
+      "ArtemisWeaponTrait": {
+        "en": "Deadly Strike",
+        "zh": "致命攻击",
+        "source": "game-official-zh-CN"
+      },
+      "AssistTrait": {
+        "en": "Assist Trait",
+        "zh": "协助托盘",
+        "source": "split-identifier"
+      },
+      "AthenaBackstabDebuffTrait": {
+        "en": "Blinding Flash",
+        "zh": "炫目之光",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaRangedTrait": {
+        "en": "Phalanx Shot",
+        "zh": "杀阵射击",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaRetaliateTrait": {
+        "en": "Holy Shield",
+        "zh": "神圣盾卫",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaRushTrait": {
+        "en": "Divine Dash",
+        "zh": "神圣冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaSecondaryTrait": {
+        "en": "Divine Flourish",
+        "zh": "神圣乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaShieldTrait": {
+        "en": "Brilliant Riposte",
+        "zh": "精彩还击",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaShoutTrait": {
+        "en": "Athena's Aid",
+        "zh": "雅典娜之援",
+        "source": "game-official-zh-CN"
+      },
+      "AthenaWeaponTrait": {
+        "en": "Divine Strike",
+        "zh": "神圣攻击",
+        "source": "game-official-zh-CN"
+      },
+      "AutoRetaliateTrait": {
+        "en": "Vengeful Mood",
+        "zh": "睚眦必报",
+        "source": "game-official-zh-CN"
+      },
+      "BackstabAlphaStrikeTrait": {
+        "en": "Black Shawl",
+        "zh": "黑色披肩",
+        "source": "game-official-zh-CN"
+      },
+      "BlizzardOrbTrait": {
+        "en": "Blizzard Shot",
+        "zh": "暴雪射击",
+        "source": "game-official-zh-CN"
+      },
+      "BloodAmmoTrait": {
+        "en": "Blood Ammo Trait",
+        "zh": "血迹图案",
+        "source": "split-identifier"
+      },
+      "BonusCollisionTrait": {
+        "en": "Typhoon's Fury",
+        "zh": "飓风怒吼",
+        "source": "game-official-zh-CN"
+      },
+      "BonusDashTrait": {
+        "en": "Greatest Reflex",
+        "zh": "极速反应",
+        "source": "game-official-zh-CN"
+      },
+      "BonusMoneyTrait": {
+        "en": "Chthonic Coin Purse",
+        "zh": "冥府零钱包",
+        "source": "game-official-zh-CN"
+      },
+      "BossDamageTrait": {
+        "en": "Wave Pounding",
+        "zh": "惊涛拍浪",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing": {
+        "en": "Bouldy Blessing",
+        "zh": "博尔迪祝福",
+        "source": "split-identifier"
+      },
+      "BouldyBlessing_Armor": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_Attack": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_Money": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_None": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_Ranged": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_Special": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BouldyBlessing_Speed": {
+        "en": "Heart of Stone",
+        "zh": "石之心",
+        "source": "game-official-zh-CN"
+      },
+      "BowBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "BowBeamTrait": {
+        "en": "Bow Beam Trait",
+        "zh": "弓束轨迹",
+        "source": "split-identifier"
+      },
+      "BowBondBoostTrait": {
+        "en": "Repulse Shot",
+        "zh": "脉冲射击",
+        "source": "game-official-zh-CN"
+      },
+      "BowBondTrait": {
+        "en": "Aspect of Rama",
+        "zh": "罗摩形态",
+        "source": "game-official-zh-CN"
+      },
+      "BowChainShotTrait": {
+        "en": "Chain Shot",
+        "zh": "连锁射击",
+        "source": "game-official-zh-CN"
+      },
+      "BowCloseAttackTrait": {
+        "en": "Point-Blank Shot",
+        "zh": "近身透射",
+        "source": "game-official-zh-CN"
+      },
+      "BowConsecutiveBarrageTrait": {
+        "en": "Concentrated Volley",
+        "zh": "致命齐射",
+        "source": "game-official-zh-CN"
+      },
+      "BowDashFanTrait": {
+        "en": "Dashing Barrage",
+        "zh": "箭雨疾行",
+        "source": "game-official-zh-CN"
+      },
+      "BowDoubleShotTrait": {
+        "en": "Twin Shot",
+        "zh": "双箭并进",
+        "source": "game-official-zh-CN"
+      },
+      "BowHomingShotTrait": {
+        "en": "Bow Homing Shot Trait",
+        "zh": "鲍·霍明拍摄轨迹",
+        "source": "split-identifier"
+      },
+      "BowLoadAmmoTrait": {
+        "en": "Aspect of Hera",
+        "zh": "赫拉形态",
+        "source": "game-official-zh-CN"
+      },
+      "BowLongRangeDamageTrait": {
+        "en": "Sniper Shot",
+        "zh": "百步穿杨",
+        "source": "game-official-zh-CN"
+      },
+      "BowMarkHomingTrait": {
+        "en": "Aspect of Chiron",
+        "zh": "喀戎形态",
+        "source": "game-official-zh-CN"
+      },
+      "BowPenetrationTrait": {
+        "en": "Piercing Volley",
+        "zh": "透甲排箭",
+        "source": "game-official-zh-CN"
+      },
+      "BowPowerShotTrait": {
+        "en": "Perfect Shot",
+        "zh": "箭无虚发",
+        "source": "game-official-zh-CN"
+      },
+      "BowProjectileReturnTrait": {
+        "en": "Bow Projectile Return Trait",
+        "zh": "Bow 投影返回轨道",
+        "source": "split-identifier"
+      },
+      "BowRandomExplosionTrait": {
+        "en": "Firework Stance",
+        "zh": "爆破姿态",
+        "source": "game-official-zh-CN"
+      },
+      "BowSecondaryBarrageTrait": {
+        "en": "Relentless Volley",
+        "zh": "箭如雨下",
+        "source": "game-official-zh-CN"
+      },
+      "BowSecondaryChargeTrait": {
+        "en": "Bow Secondary Charge Trait",
+        "zh": "Bow 二级充电轨",
+        "source": "split-identifier"
+      },
+      "BowSecondaryFocusedFireTrait": {
+        "en": "Charged Volley",
+        "zh": "蓄力排箭",
+        "source": "game-official-zh-CN"
+      },
+      "BowSlowChargeDamageTrait": {
+        "en": "Explosive Shot",
+        "zh": "爆裂之箭",
+        "source": "game-official-zh-CN"
+      },
+      "BowStoredChargeTrait": {
+        "en": "Bow Stored Charge Trait",
+        "zh": "Bow 存储充电轨",
+        "source": "split-identifier"
+      },
+      "BowTapFireTrait": {
+        "en": "Flurry Shot",
+        "zh": "连珠箭发",
+        "source": "game-official-zh-CN"
+      },
+      "BowTransitionTapFireTrait": {
+        "en": "Second Shot",
+        "zh": "暗箭难防",
+        "source": "game-official-zh-CN"
+      },
+      "BowTripleShotTrait": {
+        "en": "Triple Shot",
+        "zh": "一箭三矢",
+        "source": "game-official-zh-CN"
+      },
+      "BowWideShotTrait": {
+        "en": "Wave Shot",
+        "zh": "波涛射击",
+        "source": "game-official-zh-CN"
+      },
+      "CastBackstabTrait": {
+        "en": "Parting Shot",
+        "zh": "临别赠礼",
+        "source": "game-official-zh-CN"
+      },
+      "CastNovaTrait": {
+        "en": "Snow Burst",
+        "zh": "暴风骤雪",
+        "source": "game-official-zh-CN"
+      },
+      "ChainCurseTrait": {
+        "en": "Chain Curse Trait",
+        "zh": "链路诅咒轨迹",
+        "source": "split-identifier"
+      },
+      "ChamberGoldTrait": {
+        "en": "Side Hustle",
+        "zh": "意外之财",
+        "source": "game-official-zh-CN"
+      },
+      "ChamberStackTrait": {
+        "en": "Pom Blossom",
+        "zh": "石榴花",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingAlphaStrikeTrait": {
+        "en": "Assault",
+        "zh": "突击",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingAmmoTrait": {
+        "en": "Grasp",
+        "zh": "抓取",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingBackstabTrait": {
+        "en": "Ambush",
+        "zh": "伏击",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingBoonRarityTrait": {
+        "en": "Favor",
+        "zh": "关照",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingDashAttackTrait": {
+        "en": "Lunge",
+        "zh": "冲击",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingExtraChanceTrait": {
+        "en": "Defiance",
+        "zh": "逃生",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingGemTrait": {
+        "en": "Brilliance",
+        "zh": "闪光",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingHealTrait": {
+        "en": "Remedy",
+        "zh": "治愈",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingMaxHealthTrait": {
+        "en": "Soul",
+        "zh": "灵魂",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingMeleeTrait": {
+        "en": "Strike",
+        "zh": "攻击",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingMetapointTrait": {
+        "en": "Eclipse",
+        "zh": "日蚀",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingMoneyTrait": {
+        "en": "Affluence",
+        "zh": "暴富",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingRangedTrait": {
+        "en": "Shot",
+        "zh": "射击",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingSecondaryTrait": {
+        "en": "Flourish",
+        "zh": "乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingSecretTrait": {
+        "en": "Chaos Blessing Secret Trait",
+        "zh": "混乱的神迹",
+        "source": "split-identifier"
+      },
+      "ChaosBlessingTrait": {
+        "en": "Chaos Blessing Trait",
+        "zh": "混乱的神迹",
+        "source": "split-identifier"
+      },
+      "ChaosBlessingTrapDamageTrait": {
+        "en": "Ruin",
+        "zh": "废墟",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosBlessingTroveTrait": {
+        "en": "Chaos Blessing Trove Trait",
+        "zh": "混乱的护航轨道",
+        "source": "split-identifier"
+      },
+      "ChaosBoonTrait": {
+        "en": "Cosmic Egg",
+        "zh": "宇宙之卵",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseAmmoUseDelayTrait": {
+        "en": "Slippery",
+        "zh": "手滑",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseCastAttackTrait": {
+        "en": "Addled",
+        "zh": "坏死",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseDamageTrait": {
+        "en": "Excruciating",
+        "zh": "煎熬",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseDashAttackTrait": {
+        "en": "Stabbing",
+        "zh": "刺痛",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseDashRangeTrait": {
+        "en": "Halting",
+        "zh": "踌躇",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseDeathWeaponTrait": {
+        "en": "Caustic",
+        "zh": "尖刻",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseHealthTrait": {
+        "en": "Atrophic",
+        "zh": "衰竭",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseHiddenRoomReward": {
+        "en": "Enshrouded",
+        "zh": "迷茫",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseMoveSpeedTrait": {
+        "en": "Slothful",
+        "zh": "懒惰",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseNoMoneyTrait": {
+        "en": "Pauper's",
+        "zh": "贫民",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCursePrimaryAttackTrait": {
+        "en": "Maimed",
+        "zh": "致残",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseRemainingEncounters": {
+        "en": "Chaos Curse Remaining Encounters",
+        "zh": "混乱的诅咒余下遭遇",
+        "source": "split-identifier"
+      },
+      "ChaosCurseSecondaryAttackTrait": {
+        "en": "Flayed",
+        "zh": "剥皮",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseSpawnTrait": {
+        "en": "Roiling",
+        "zh": "暴动",
+        "source": "game-official-zh-CN"
+      },
+      "ChaosCurseTrait": {
+        "en": "Chaos Curse Trait",
+        "zh": "混沌诅咒轨迹",
+        "source": "split-identifier"
+      },
+      "ChaosCurseTrapDamageTrait": {
+        "en": "Abyssal",
+        "zh": "深渊",
+        "source": "game-official-zh-CN"
+      },
+      "CharmTrait": {
+        "en": "Unhealthy Fixation",
+        "zh": "走火入魔",
+        "source": "game-official-zh-CN"
+      },
+      "CollisionTouchTrait": {
+        "en": "Passing Through",
+        "zh": "杀入重围",
+        "source": "game-official-zh-CN"
+      },
+      "CritBonusTrait": {
+        "en": "Pressure Points",
+        "zh": "直指要害",
+        "source": "game-official-zh-CN"
+      },
+      "CriticalBoltTrait": {
+        "en": "Critical Bolt Trait",
+        "zh": "关键托盘",
+        "source": "split-identifier"
+      },
+      "CriticalBufferMultiplierTrait": {
+        "en": "Hide Breaker",
+        "zh": "破甲暴击",
+        "source": "game-official-zh-CN"
+      },
+      "CriticalStunTrait": {
+        "en": "Critical Stun Trait",
+        "zh": "严重绊倒",
+        "source": "split-identifier"
+      },
+      "CriticalSuperGenerationTrait": {
+        "en": "Hunter Instinct",
+        "zh": "猎人本能",
+        "source": "game-official-zh-CN"
+      },
+      "CritVulnerabilityTrait": {
+        "en": "Hunter's Mark",
+        "zh": "猎人标记",
+        "source": "game-official-zh-CN"
+      },
+      "CurseSickTrait": {
+        "en": "Curse of Longing",
+        "zh": "求而不得",
+        "source": "game-official-zh-CN"
+      },
+      "DarknessRoomTrait": {
+        "en": "Darkness Room Trait",
+        "zh": "暗色室托盘",
+        "source": "split-identifier"
+      },
+      "DeathDefianceFreezeTimeTrait": {
+        "en": "Death Defiance Freeze Time",
+        "zh": "死亡蔑视冻结时间",
+        "source": "game-official-zh-CN"
+      },
+      "DefensiveRushTrait": {
+        "en": "Defensive Rush Trait",
+        "zh": "防守狂暴路线",
+        "source": "split-identifier"
+      },
+      "DefensiveSuperGenerationTrait": {
+        "en": "Boiling Point",
+        "zh": "海水沸腾",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterRangedBonusTrait": {
+        "en": "Glacial Glare",
+        "zh": "冰川极寒",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterRangedTrait": {
+        "en": "Crystal Beam",
+        "zh": "水晶射击",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterRetaliateTrait": {
+        "en": "Frozen Touch",
+        "zh": "冰寒之触",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterRushTrait": {
+        "en": "Mistral Dash",
+        "zh": "冷风冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterSecondaryTrait": {
+        "en": "Frost Flourish",
+        "zh": "冰霜乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterShoutTrait": {
+        "en": "Demeter's Aid",
+        "zh": "得墨忒尔之援",
+        "source": "game-official-zh-CN"
+      },
+      "DemeterWeaponTrait": {
+        "en": "Frost Strike",
+        "zh": "冰霜攻击",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusAoETrait": {
+        "en": "Dionysus Ao E Trait",
+        "zh": "狄奥尼索斯·奥·特莱特",
+        "source": "split-identifier"
+      },
+      "DionysusAphroditeStackIncreaseTrait": {
+        "en": "Low Tolerance",
+        "zh": "纵情酒色",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusComboVulnerability": {
+        "en": "Black Out",
+        "zh": "不省人事",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusDefenseTrait": {
+        "en": "High Tolerance",
+        "zh": "千杯不醉",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusMaxHealthTrait": {
+        "en": "Dionysus Max Health Trait",
+        "zh": "Dionysus Max 健康轨迹",
+        "source": "split-identifier"
+      },
+      "DionysusNullifyProjectileTrait": {
+        "en": "Smoke Screen",
+        "zh": "烟幕屏障",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusPoisonPowerTrait": {
+        "en": "Bad Influence",
+        "zh": "恶劣影响",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusRangedTrait": {
+        "en": "Trippy Shot",
+        "zh": "致幻射击",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusRushTrait": {
+        "en": "Drunken Dash",
+        "zh": "醉酒冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusSecondaryTrait": {
+        "en": "Drunken Flourish",
+        "zh": "醉酒乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusShoutTrait": {
+        "en": "Dionysus' Aid",
+        "zh": "迪奥尼索司之援",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusSlowTrait": {
+        "en": "Numbing Sensation",
+        "zh": "烂醉如泥",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusSpreadTrait": {
+        "en": "Peer Pressure",
+        "zh": "花前劝酒",
+        "source": "game-official-zh-CN"
+      },
+      "DionysusWeaponTrait": {
+        "en": "Drunken Strike",
+        "zh": "醉酒攻击",
+        "source": "game-official-zh-CN"
+      },
+      "DirectionalArmorTrait": {
+        "en": "Myrmidon Bracer",
+        "zh": "密尔弥冬护腕",
+        "source": "game-official-zh-CN"
+      },
+      "DiscountTrait": {
+        "en": "Valued Customer",
+        "zh": "重要客户",
+        "source": "game-official-zh-CN"
+      },
+      "DislodgeAmmoTrait": {
+        "en": "Aspect of Poseidon",
+        "zh": "波塞冬形态",
+        "source": "game-official-zh-CN"
+      },
+      "DistanceDamageTrait": {
+        "en": "Distant Memory",
+        "zh": "遥远的记忆",
+        "source": "game-official-zh-CN"
+      },
+      "DodgeChanceTrait": {
+        "en": "Greater Evasion",
+        "zh": "闪躲腾挪",
+        "source": "game-official-zh-CN"
+      },
+      "DoorHealTrait": {
+        "en": "After Party",
+        "zh": "宴后再聚",
+        "source": "game-official-zh-CN"
+      },
+      "DoubleCollisionTrait": {
+        "en": "Second Wave",
+        "zh": "滔滔不绝",
+        "source": "game-official-zh-CN"
+      },
+      "DusaAssistTrait": {
+        "en": "Companion Fidi",
+        "zh": "伴偶菲迪",
+        "source": "game-official-zh-CN"
+      },
+      "EncounterStartOffenseBuffTrait": {
+        "en": "Hydraulic Might",
+        "zh": "汪洋之力",
+        "source": "game-official-zh-CN"
+      },
+      "EnemyDamageTrait": {
+        "en": "Bronze Skin",
+        "zh": "铜墙铁壁",
+        "source": "game-official-zh-CN"
+      },
+      "FastClearDodgeBonusTrait": {
+        "en": "Lambent Plume",
+        "zh": "萤光羽毛",
+        "source": "game-official-zh-CN"
+      },
+      "FishingTrait": {
+        "en": "Huge Catch",
+        "zh": "渔获丰收",
+        "source": "game-official-zh-CN"
+      },
+      "FistAttackDefenseTrait": {
+        "en": "Colossus Knuckle",
+        "zh": "巨人怒拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistAttackFinisherTrait": {
+        "en": "Rolling Knuckle",
+        "zh": "斜刺冷拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "FistChargeAttackTrait": {
+        "en": "Charged Knuckle",
+        "zh": "充能拳击",
+        "source": "game-official-zh-CN"
+      },
+      "FistChargeSpecialTrait": {
+        "en": "Flying Cutter",
+        "zh": "飞天挑拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistConsecutiveAttackTrait": {
+        "en": "Concentrated Knuckle",
+        "zh": "热血连拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistDashAttackHealthBufferTrait": {
+        "en": "Breaching Cross",
+        "zh": "破甲摆拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistDetonateBoostTrait": {
+        "en": "Rending Claws",
+        "zh": "撕裂之爪",
+        "source": "game-official-zh-CN"
+      },
+      "FistDetonateTrait": {
+        "en": "Aspect of Gilgamesh",
+        "zh": "吉尔伽美什形态",
+        "source": "game-official-zh-CN"
+      },
+      "FistDoubleDashSpecialTrait": {
+        "en": "Explosive Upper",
+        "zh": "爆裂勾拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistDoubleSpecialTrait": {
+        "en": "Fist Double Special Trait",
+        "zh": "双打双打特技",
+        "source": "split-identifier"
+      },
+      "FistHeavyAttackTrait": {
+        "en": "Heavy Knuckle",
+        "zh": "重拳猛击",
+        "source": "game-official-zh-CN"
+      },
+      "FistKillTrait": {
+        "en": "Draining Cutter",
+        "zh": "血肉横飞",
+        "source": "game-official-zh-CN"
+      },
+      "FistReachAttackTrait": {
+        "en": "Long Knuckle",
+        "zh": "无影长拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistSpecialFireballTrait": {
+        "en": "Kinetic Launcher",
+        "zh": "蓄力勾拳",
+        "source": "game-official-zh-CN"
+      },
+      "FistSpecialLandTrait": {
+        "en": "Quake Cutter",
+        "zh": "裂天撼地",
+        "source": "game-official-zh-CN"
+      },
+      "FistSpecialWaveTrait": {
+        "en": "Fist Special Wave Trait",
+        "zh": "拳头特别波纹",
+        "source": "split-identifier"
+      },
+      "FistTeleportSpecialTrait": {
+        "en": "Rush Kick",
+        "zh": "舍身飞踢",
+        "source": "game-official-zh-CN"
+      },
+      "FistThrowSpecial": {
+        "en": "Fist Throw Special",
+        "zh": "特别拳击",
+        "source": "split-identifier"
+      },
+      "FistVacuumTrait": {
+        "en": "Aspect of Talos",
+        "zh": "塔罗斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "FistWeaveTrait": {
+        "en": "Aspect of Demeter",
+        "zh": "得墨忒尔形态",
+        "source": "game-official-zh-CN"
+      },
+      "ForceAphroditeBoonTrait": {
+        "en": "Eternal Rose",
+        "zh": "永恒的玫瑰",
+        "source": "game-official-zh-CN"
+      },
+      "ForceAresBoonTrait": {
+        "en": "Blood-filled Vial",
+        "zh": "充血药瓶",
+        "source": "game-official-zh-CN"
+      },
+      "ForceArtemisBoonTrait": {
+        "en": "Adamant Arrowhead",
+        "zh": "坚硬箭头",
+        "source": "game-official-zh-CN"
+      },
+      "ForceAthenaBoonTrait": {
+        "en": "Owl Pendant",
+        "zh": "猫头鹰吊坠",
+        "source": "game-official-zh-CN"
+      },
+      "ForceDemeterBoonTrait": {
+        "en": "Frostbitten Horn",
+        "zh": "冰冻之角",
+        "source": "game-official-zh-CN"
+      },
+      "ForceDionysusBoonTrait": {
+        "en": "Overflowing Cup",
+        "zh": "满溢酒杯",
+        "source": "game-official-zh-CN"
+      },
+      "ForcePoseidonBoonTrait": {
+        "en": "Conch Shell",
+        "zh": "海螺壳",
+        "source": "game-official-zh-CN"
+      },
+      "ForceZeusBoonTrait": {
+        "en": "Thunder Signet",
+        "zh": "雷霆之印",
+        "source": "game-official-zh-CN"
+      },
+      "FountainDamageBonusTrait": {
+        "en": "Strong Drink",
+        "zh": "烈酒入喉",
+        "source": "game-official-zh-CN"
+      },
+      "FreeHealthGateTrait": {
+        "en": "Free Health Gate Trait",
+        "zh": "免费健康门通道",
+        "source": "split-identifier"
+      },
+      "FreezeTimeDashTrait": {
+        "en": "Freeze Time Dash Trait",
+        "zh": "冻结时间",
+        "source": "split-identifier"
+      },
+      "FuryAssistTrait": {
+        "en": "Companion Battie",
+        "zh": "伴偶巴蒂",
+        "source": "game-official-zh-CN"
+      },
+      "GiftHealthTrait": {
+        "en": "Gift Health Trait",
+        "zh": "Gift健康专辑",
+        "source": "split-identifier"
+      },
+      "GiftTrait": {
+        "en": "Gift Trait",
+        "zh": "礼品托盘",
+        "source": "split-identifier"
+      },
+      "GodModeTrait": {
+        "en": "Deus Ex Machina",
+        "zh": "天外飞仙",
+        "source": "game-official-zh-CN"
+      },
+      "GunArmorPenerationTrait": {
+        "en": "Piercing Fire",
+        "zh": "穿刺子弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "GunChainShotTrait": {
+        "en": "Ricochet Fire",
+        "zh": "跳弹射击",
+        "source": "game-official-zh-CN"
+      },
+      "GunConsecutiveFireTrait": {
+        "en": "Concentrated Fire",
+        "zh": "集火射击",
+        "source": "game-official-zh-CN"
+      },
+      "GunDashAmmoTrait": {
+        "en": "Cooling Chamber",
+        "zh": "高效上膛",
+        "source": "game-official-zh-CN"
+      },
+      "GunEmptyClipBlastTrait": {
+        "en": "Explosive Reload",
+        "zh": "爆裂装填",
+        "source": "game-official-zh-CN"
+      },
+      "GunExplodingSecondaryTrait": {
+        "en": "Rocket Bomb",
+        "zh": "火箭飞弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunFinalBulletTrait": {
+        "en": "Final Round",
+        "zh": "最后一发",
+        "source": "game-official-zh-CN"
+      },
+      "GunGrenadeClusterTrait": {
+        "en": "Cluster Bomb",
+        "zh": "狂轰滥炸",
+        "source": "game-official-zh-CN"
+      },
+      "GunGrenadeDropTrait": {
+        "en": "Hazard Bomb",
+        "zh": "人体炸弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunGrenadeFastTrait": {
+        "en": "Triple Bomb",
+        "zh": "三重轰炸",
+        "source": "game-official-zh-CN"
+      },
+      "GunGrenadeProjectileSpeedTrait": {
+        "en": "Gun Grenade Projectile Speed Trait",
+        "zh": "枪榴弹射速轨",
+        "source": "split-identifier"
+      },
+      "GunGrenadeSelfEmpowerTrait": {
+        "en": "Aspect of Eris",
+        "zh": "厄里斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "GunHeavyBulletTrait": {
+        "en": "Explosive Fire",
+        "zh": "爆炸子弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunHomingBulletTrait": {
+        "en": "Seeking Fire",
+        "zh": "追踪导弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunInfiniteAmmoTrait": {
+        "en": "Delta Chamber",
+        "zh": "三发点射",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeBoostTrait": {
+        "en": "Greater Inferno",
+        "zh": "地狱怒焰",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeInfiniteAmmoTrait": {
+        "en": "Eternal Chamber",
+        "zh": "无尽弹匣",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeLaserTrait": {
+        "en": "Concentrated Beam",
+        "zh": "破坏死光",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeSpeedTrait": {
+        "en": "Flash Fire",
+        "zh": "爆裂闪焰",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeTrait": {
+        "en": "Aspect of Lucifer",
+        "zh": "路西法形态",
+        "source": "game-official-zh-CN"
+      },
+      "GunLoadedGrenadeWideTrait": {
+        "en": "Triple Beam",
+        "zh": "三重死光",
+        "source": "game-official-zh-CN"
+      },
+      "GunManualReloadTrait": {
+        "en": "Aspect of Hestia",
+        "zh": "赫斯提亚形态",
+        "source": "game-official-zh-CN"
+      },
+      "GunMinigunTrait": {
+        "en": "Flurry Fire",
+        "zh": "连珠子弹",
+        "source": "game-official-zh-CN"
+      },
+      "GunShotgunTrait": {
+        "en": "Spread Fire",
+        "zh": "霰弹发射",
+        "source": "game-official-zh-CN"
+      },
+      "GunSlowGrenade": {
+        "en": "Targeting System",
+        "zh": "无处藏身",
+        "source": "game-official-zh-CN"
+      },
+      "GunSniperTrait": {
+        "en": "Gun Sniper Trait",
+        "zh": "狙击手拖车",
+        "source": "split-identifier"
+      },
+      "HadesShoutKeepsake": {
+        "en": "Sigil of the Dead",
+        "zh": "死者印记",
+        "source": "game-official-zh-CN"
+      },
+      "HadesShoutTrait": {
+        "en": "Hades' Aid",
+        "zh": "哈迪斯之援",
+        "source": "game-official-zh-CN"
+      },
+      "HarvestBoonTrait": {
+        "en": "Harvest Boon Trait",
+        "zh": "丰收宝车道",
+        "source": "split-identifier"
+      },
+      "HealingPotencyTrait": {
+        "en": "Nourished Soul",
+        "zh": "灵魂滋养",
+        "source": "game-official-zh-CN"
+      },
+      "HealthAsAmmoTrait": {
+        "en": "Health As Ammo Trait",
+        "zh": "健康作为Ammo Trait",
+        "source": "split-identifier"
+      },
+      "HealthBonusTrait": {
+        "en": "Health Bonus Trait",
+        "zh": "健康奖励",
+        "source": "split-identifier"
+      },
+      "HealthRewardBonusTrait": {
+        "en": "Life Affirmation",
+        "zh": "一生相伴",
+        "source": "game-official-zh-CN"
+      },
+      "HeartsickCritDamageTrait": {
+        "en": "Heart Rend",
+        "zh": "撕心裂肺",
+        "source": "game-official-zh-CN"
+      },
+      "HermesBonusProjectilesTrait": {
+        "en": "Hermes Bonus Projectiles Trait",
+        "zh": "Hermes 奖金投影轨迹",
+        "source": "split-identifier"
+      },
+      "HermesPlannedRushTrait": {
+        "en": "Travel Plan",
+        "zh": "时空穿梭",
+        "source": "game-official-zh-CN"
+      },
+      "HermesPlannedRushTrait2": {
+        "en": "Hermes Planned Rush Trait2",
+        "zh": "Hermes 计划运行的轨道2",
+        "source": "split-identifier"
+      },
+      "HermesRangedTrait": {
+        "en": "Hermes Ranged Trait",
+        "zh": "Hermes 范围轨迹",
+        "source": "split-identifier"
+      },
+      "HermesRushAreaSlow": {
+        "en": "Relative Speed",
+        "zh": "相对速度",
+        "source": "game-official-zh-CN"
+      },
+      "HermesSecondaryTrait": {
+        "en": "Swift Flourish",
+        "zh": "迅捷乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "HermesShoutDodge": {
+        "en": "Second Wind",
+        "zh": "越战越勇",
+        "source": "game-official-zh-CN"
+      },
+      "HermesWeaponTrait": {
+        "en": "Swift Strike",
+        "zh": "迅捷攻击",
+        "source": "game-official-zh-CN"
+      },
+      "HeroicStandTrait": {
+        "en": "Heroic Stand Trait",
+        "zh": "英雄脚步",
+        "source": "split-identifier"
+      },
+      "HomingLaserTrait": {
+        "en": "Crystal Clarity",
+        "zh": "冰寒射线",
+        "source": "game-official-zh-CN"
+      },
+      "IceStrikeArrayTrait": {
+        "en": "Ice Wine",
+        "zh": "寒冰美酒",
+        "source": "game-official-zh-CN"
+      },
+      "ImpactBoltTrait": {
+        "en": "Sea Storm",
+        "zh": "海上风暴",
+        "source": "game-official-zh-CN"
+      },
+      "ImprovedPomTrait": {
+        "en": "Sweet Nectar",
+        "zh": "甘甜蜜露",
+        "source": "game-official-zh-CN"
+      },
+      "ImprovedWeaponTrait": {
+        "en": "Improved Weapon Trait",
+        "zh": "改进武器托盘",
+        "source": "split-identifier"
+      },
+      "IncreasedDamageTrait": {
+        "en": "Urge to Kill",
+        "zh": "杀之后快",
+        "source": "game-official-zh-CN"
+      },
+      "IncreasedWrathStockTrait": {
+        "en": "Increased Wrath Stock Trait",
+        "zh": "增加的财富",
+        "source": "split-identifier"
+      },
+      "InfiniteAmmoTrait": {
+        "en": "Infinite Ammo Trait",
+        "zh": "无限的阿莫轨道",
+        "source": "split-identifier"
+      },
+      "InstantChillKill": {
+        "en": "Winter Harvest",
+        "zh": "严冬收割",
+        "source": "game-official-zh-CN"
+      },
+      "JoltDurationTrait": {
+        "en": "Cold Fusion",
+        "zh": "冷酷聚变",
+        "source": "game-official-zh-CN"
+      },
+      "LastStandDamageBonusTrait": {
+        "en": "Blood Frenzy",
+        "zh": "血迷心窍",
+        "source": "game-official-zh-CN"
+      },
+      "LastStandDurationTrait": {
+        "en": "Deathless Stand",
+        "zh": "屹立不倒",
+        "source": "game-official-zh-CN"
+      },
+      "LastStandHealTrait": {
+        "en": "Last Stand",
+        "zh": "背水一战",
+        "source": "game-official-zh-CN"
+      },
+      "LifeOnKillTrait": {
+        "en": "Life On Kill Trait",
+        "zh": "杀死轨道上的生命",
+        "source": "split-identifier"
+      },
+      "LifeOnUrnTrait": {
+        "en": "Harpy Feather Duster",
+        "zh": "哈耳庇厄毛掸",
+        "source": "game-official-zh-CN"
+      },
+      "LightningCloudTrait": {
+        "en": "Scintillating Feast",
+        "zh": "光芒盛宴",
+        "source": "game-official-zh-CN"
+      },
+      "LimitedTimeTrait": {
+        "en": "Limited Time Trait",
+        "zh": "有限时间",
+        "source": "split-identifier"
+      },
+      "LowHealthDamageTrait": {
+        "en": "Skull Earring",
+        "zh": "骷髅耳环",
+        "source": "game-official-zh-CN"
+      },
+      "LowHealthDefenseTrait": {
+        "en": "Positive Outlook",
+        "zh": "苦中作乐",
+        "source": "game-official-zh-CN"
+      },
+      "MagnetismTrait": {
+        "en": "Greater Recall",
+        "zh": "自动收回",
+        "source": "game-official-zh-CN"
+      },
+      "MarkedDropGoldTrait": {
+        "en": "Wanted Dead",
+        "zh": "通缉死了",
+        "source": "game-english"
+      },
+      "MaxHealthKeepsakeTrait": {
+        "en": "Old Spiked Collar",
+        "zh": "旧尖刺项圈",
+        "source": "game-official-zh-CN"
+      },
+      "MaximumChillBlast": {
+        "en": "Arctic Blast",
+        "zh": "极地风暴",
+        "source": "game-official-zh-CN"
+      },
+      "MaximumChillBonusSlow": {
+        "en": "Killing Freeze",
+        "zh": "刺骨严寒",
+        "source": "game-official-zh-CN"
+      },
+      "MegaRubbleTrait": {
+        "en": "Abandoned Shackle",
+        "zh": "废弃枷锁",
+        "source": "game-official-zh-CN"
+      },
+      "MetaPointHealTrait": {
+        "en": "Abandoned Shawl",
+        "zh": "废弃披肩",
+        "source": "game-official-zh-CN"
+      },
+      "MoneyMultiplierTrait": {
+        "en": "Money Multiplier Trait",
+        "zh": "货币倍数轨道",
+        "source": "split-identifier"
+      },
+      "MoreAmmoTrait": {
+        "en": "Fully Loaded",
+        "zh": "全副武装",
+        "source": "game-official-zh-CN"
+      },
+      "MoveSpeedTrait": {
+        "en": "Greater Haste",
+        "zh": "健步如飞",
+        "source": "game-official-zh-CN"
+      },
+      "MultiLaserTrait": {
+        "en": "Multi Laser Trait",
+        "zh": "多激光轨迹",
+        "source": "split-identifier"
+      },
+      "NoCollisionTrait": {
+        "en": "No Collision Trait",
+        "zh": "无碰撞轨迹",
+        "source": "split-identifier"
+      },
+      "NoLastStandRegenerationTrait": {
+        "en": "Stubborn Roots",
+        "zh": "根深蒂固",
+        "source": "game-official-zh-CN"
+      },
+      "OnEnemyDeathDamageInstanceBuffTrait": {
+        "en": "Battle Rage",
+        "zh": "血战狂怒",
+        "source": "game-official-zh-CN"
+      },
+      "OnEnemyDeathDefenseBuffTrait": {
+        "en": "On Enemy Death Defense Buff Trait",
+        "zh": "在敌人死亡防御 Buff Trait上",
+        "source": "split-identifier"
+      },
+      "OnSpawnSwordTrait": {
+        "en": "On Spawn Sword Trait",
+        "zh": "在Spawn剑道上",
+        "source": "split-identifier"
+      },
+      "OnWrathDamageBuffTrait": {
+        "en": "Billowing Strength",
+        "zh": "无边神力",
+        "source": "game-official-zh-CN"
+      },
+      "PerfectClearDamageBonusTrait": {
+        "en": "Pierced Butterfly",
+        "zh": "蝴蝶标本",
+        "source": "game-official-zh-CN"
+      },
+      "PerfectClearHealthBonusTrait": {
+        "en": "Perfect Clear Health Bonus Trait",
+        "zh": "完美清晰的健康收益",
+        "source": "split-identifier"
+      },
+      "PerfectDashBoltTrait": {
+        "en": "Lightning Reflexes",
+        "zh": "电光石火",
+        "source": "game-official-zh-CN"
+      },
+      "PoisonCritVulnerabilityTrait": {
+        "en": "Splitting Headache",
+        "zh": "头痛欲裂",
+        "source": "game-official-zh-CN"
+      },
+      "PoisonTickRateTrait": {
+        "en": "Curse of Nausea",
+        "zh": "呕吐诅咒",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonAphroditeTouchTrait": {
+        "en": "Poseidon Aphrodite Touch Trait",
+        "zh": "波塞冬·阿佛洛狄忒触摸轨迹",
+        "source": "split-identifier"
+      },
+      "PoseidonAresProjectileTrait": {
+        "en": "Curse of Drowning",
+        "zh": "溺亡诅咒",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonPickedUpMinorLootTrait": {
+        "en": "Poseidon Picked Up Minor Loot Trait",
+        "zh": "波塞冬捡起小窝铺",
+        "source": "split-identifier"
+      },
+      "PoseidonRangedTrait": {
+        "en": "Flood Shot",
+        "zh": "洪水射击",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonRushTrait": {
+        "en": "Tidal Dash",
+        "zh": "海潮冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonSecondaryTrait": {
+        "en": "Tempest Flourish",
+        "zh": "暴风乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonShoutDurationTrait": {
+        "en": "Rip Current",
+        "zh": "海底激流",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonShoutTrait": {
+        "en": "Poseidon's Aid",
+        "zh": "波塞冬之援",
+        "source": "game-official-zh-CN"
+      },
+      "PoseidonWeaponTrait": {
+        "en": "Tempest Strike",
+        "zh": "暴风攻击",
+        "source": "game-official-zh-CN"
+      },
+      "PreloadSuperGenerationTrait": {
+        "en": "Proud Bearing",
+        "zh": "气宇轩昂",
+        "source": "game-official-zh-CN"
+      },
+      "ProximityArmorTrait": {
+        "en": "Different League",
+        "zh": "高攀不起",
+        "source": "game-official-zh-CN"
+      },
+      "RapidCastTrait": {
+        "en": "Flurry Cast",
+        "zh": "极速投射",
+        "source": "game-official-zh-CN"
+      },
+      "RapidRushTrait": {
+        "en": "Rapid Rush Trait",
+        "zh": "快速拉链",
+        "source": "split-identifier"
+      },
+      "RaritySuperBoost": {
+        "en": "Exclusive Access",
+        "zh": "专属体验",
+        "source": "game-official-zh-CN"
+      },
+      "ReboundingAthenaCastTrait": {
+        "en": "Lightning Phalanx",
+        "zh": "闪电杀阵",
+        "source": "game-official-zh-CN"
+      },
+      "ReducedCooldownTrait": {
+        "en": "Reduced Cooldown Trait",
+        "zh": "冷却轨迹减少",
+        "source": "split-identifier"
+      },
+      "ReducedEnemySpawnsTrait": {
+        "en": "Reduced Enemy Spawns Trait",
+        "zh": "减少敌人的突袭",
+        "source": "split-identifier"
+      },
+      "RegeneratingCappedSuperTrait": {
+        "en": "Smoldering Air",
+        "zh": "烟熏火燎",
+        "source": "game-official-zh-CN"
+      },
+      "RegeneratingSuperTrait": {
+        "en": "Quick Favor",
+        "zh": "迅捷赐福",
+        "source": "game-official-zh-CN"
+      },
+      "ReincarnationTrait": {
+        "en": "Lucky Tooth",
+        "zh": "幸运牙齿",
+        "source": "game-official-zh-CN"
+      },
+      "RetainMoneyOnDeathTrait": {
+        "en": "Retain Money On Death Trait",
+        "zh": "在死亡轨迹上保留钱",
+        "source": "split-identifier"
+      },
+      "RetainTempHealthTrait": {
+        "en": "Retain Temp Health Trait",
+        "zh": "暂时保持卫生通道",
+        "source": "split-identifier"
+      },
+      "RetaliateWeaponTrait": {
+        "en": "Heaven's Vengeance",
+        "zh": "雷神惩击",
+        "source": "game-official-zh-CN"
+      },
+      "RoomAmmoTrait": {
+        "en": "Room Ammo Trait",
+        "zh": "房间Ammo Trait",
+        "source": "split-identifier"
+      },
+      "RoomRewardBonusTrait": {
+        "en": "Ocean's Bounty",
+        "zh": "海洋恩赐",
+        "source": "game-official-zh-CN"
+      },
+      "RoomRewardEmptyMaxHealthTrait": {
+        "en": "Room Reward Empty Max Health Trait",
+        "zh": "房间奖励空的 Max 健康通道",
+        "source": "split-identifier"
+      },
+      "RoomRewardMaxHealthTrait": {
+        "en": "Room Reward Max Health Trait",
+        "zh": "房间奖励 Max 健康通道",
+        "source": "split-identifier"
+      },
+      "RushRallyTrait": {
+        "en": "Quick Recovery",
+        "zh": "快速恢复",
+        "source": "game-official-zh-CN"
+      },
+      "RushSpeedBoostTrait": {
+        "en": "Hyper Sprint",
+        "zh": "大步流星",
+        "source": "game-official-zh-CN"
+      },
+      "SelfLaserTrait": {
+        "en": "Cold Embrace",
+        "zh": "冰寒之拥",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldAfterHitTrait": {
+        "en": "Broken Spearpoint",
+        "zh": "折断的矛头",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldAttackChargeTrait": {
+        "en": "Shield Attack Charge Trait",
+        "zh": "盾牌攻击充电轨",
+        "source": "split-identifier"
+      },
+      "ShieldBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldBashDamageTrait": {
+        "en": "Pulverizing Blow",
+        "zh": "粉碎打击",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldBashReflectTrait": {
+        "en": "Peerless Parry",
+        "zh": "终极躲闪",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldBlockEmpowerTrait": {
+        "en": "Ferocious Guard",
+        "zh": "锐不可当",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldBossTrait": {
+        "en": "Evergreen Acorn",
+        "zh": "常绿橡子",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldBounceEmpowerTrait": {
+        "en": "Shield Bounce Empower Trait",
+        "zh": "盾牌弹跳增强轨道",
+        "source": "split-identifier"
+      },
+      "ShieldChargeHealthBufferTrait": {
+        "en": "Breaching Rush",
+        "zh": "破甲冲击",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldChargeSpeedTrait": {
+        "en": "Sudden Rush",
+        "zh": "骤然突袭",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldDamageBarrierTrait": {
+        "en": "Dark Barrier",
+        "zh": "黑暗屏障",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldDamageReductionTrait": {
+        "en": "Defensive Aura",
+        "zh": "防御光环",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldDashAOETrait": {
+        "en": "Dashing Wallop",
+        "zh": "重拳冲击",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldDashAttackTrait": {
+        "en": "Shield Dash Attack Trait",
+        "zh": "盾牌Dash攻击轨迹",
+        "source": "split-identifier"
+      },
+      "ShieldDoubleRushTrait": {
+        "en": "Shield Double Rush Trait",
+        "zh": "盾牌双斜拉杆",
+        "source": "split-identifier"
+      },
+      "ShieldHitTrait": {
+        "en": "Divine Protection",
+        "zh": "神圣保护",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_AphroditeRangedTrait": {
+        "en": "Passion Flare",
+        "zh": "激情四射",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_AresRangedTrait": {
+        "en": "Slicing Flare",
+        "zh": "血斩旋风",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_ArtemisRangedTrait": {
+        "en": "Hunter's Flare",
+        "zh": "猎手之怒",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_AthenaRangedTrait": {
+        "en": "Phalanx Flare",
+        "zh": "爆裂杀阵",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_DemeterRangedTrait": {
+        "en": "Icy Flare",
+        "zh": "冰魂素魄",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_DionysusRangedTrait": {
+        "en": "Trippy Flare",
+        "zh": "致幻爆破",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_PoseidonRangedTrait": {
+        "en": "Flood Flare",
+        "zh": "洪水滔天",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmo_ZeusRangedTrait": {
+        "en": "Thunder Flare",
+        "zh": "雷鸣电闪",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmoBoostTrait": {
+        "en": "Unyielding Defense",
+        "zh": "不屈之盾",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldLoadAmmoTrait": {
+        "en": "Aspect of Beowulf",
+        "zh": "贝奥武夫形态",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldPerfectRushTrait": {
+        "en": "Minotaur Rush",
+        "zh": "牛魔猛冲",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldRevengeTrait": {
+        "en": "Shield Revenge Trait",
+        "zh": "盾牌复仇专辑",
+        "source": "split-identifier"
+      },
+      "ShieldRushBonusProjectileTrait": {
+        "en": "Aspect of Chaos",
+        "zh": "卡俄斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldRushProjectileTrait": {
+        "en": "Charged Shot",
+        "zh": "蓄势待发",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldRushPunchTrait": {
+        "en": "World Smasher",
+        "zh": "力抗天下",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldSlowChargeDamage": {
+        "en": "Minotaur Rush",
+        "zh": "弥诺陶突袭",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowCatchExplode": {
+        "en": "Explosive Return",
+        "zh": "爆裂回旋",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowElectiveCharge": {
+        "en": "Charged Flight",
+        "zh": "乾坤一掷",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowEmpowerTrait": {
+        "en": "Empowering Flight",
+        "zh": "充能投枪",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowExplode": {
+        "en": "Shield Throw Explode",
+        "zh": "盾牌投掷爆炸",
+        "source": "split-identifier"
+      },
+      "ShieldThrowFastTrait": {
+        "en": "Dread Flight",
+        "zh": "亡命飞盾",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowGrindTrait": {
+        "en": "Shield Throw Grind Trait",
+        "zh": "盾牌掷出栅栏",
+        "source": "split-identifier"
+      },
+      "ShieldThrowJumpDamageTrait": {
+        "en": "Voracious Flight",
+        "zh": "飞行重击",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowMultiHitTrait": {
+        "en": "Shield Throw Multi Hit Trait",
+        "zh": "盾牌投掷多击托盘",
+        "source": "split-identifier"
+      },
+      "ShieldThrowRushTrait": {
+        "en": "Dashing Flight",
+        "zh": "骋跃枪驰",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldThrowSingleTargetTrait": {
+        "en": "Burst Flight",
+        "zh": "空中暴击",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldTwoShieldTrait": {
+        "en": "Aspect of Zeus",
+        "zh": "宙斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "ShopDurationTrait": {
+        "en": "Bone Hourglass",
+        "zh": "骨头沙漏",
+        "source": "game-official-zh-CN"
+      },
+      "ShopTier1Trait": {
+        "en": "Shop Tier1 Trait",
+        "zh": "商店第一层通道",
+        "source": "split-identifier"
+      },
+      "ShopTier2Trait": {
+        "en": "Shop Tier2 Trait",
+        "zh": "商店第二级轨道",
+        "source": "split-identifier"
+      },
+      "ShopTier3Trait": {
+        "en": "Shop Tier3 Trait",
+        "zh": "商店第三级拖拉机",
+        "source": "split-identifier"
+      },
+      "ShopTrait": {
+        "en": "Shop Trait",
+        "zh": "商店托盘",
+        "source": "split-identifier"
+      },
+      "SisyphusAssistTrait": {
+        "en": "Companion Shady",
+        "zh": "伴偶沙迪",
+        "source": "game-official-zh-CN"
+      },
+      "SkellyAssistTrait": {
+        "en": "Companion Rib",
+        "zh": "伴偶瑞博",
+        "source": "game-official-zh-CN"
+      },
+      "SlamExplosionTrait": {
+        "en": "Breaking Wave",
+        "zh": "怒浪滔天",
+        "source": "game-official-zh-CN"
+      },
+      "SlamStunTrait": {
+        "en": "Slam Stun Trait",
+        "zh": "Slam Stun 轨道",
+        "source": "split-identifier"
+      },
+      "SlipperyTrait": {
+        "en": "Razor Shoals",
+        "zh": "浪如刀割",
+        "source": "game-official-zh-CN"
+      },
+      "SlowProjectileTrait": {
+        "en": "Calculated Risk",
+        "zh": "风险管理",
+        "source": "game-official-zh-CN"
+      },
+      "SpearAttackEscalate": {
+        "en": "Spear Attack Escalate",
+        "zh": "斯皮尔攻击升级",
+        "source": "split-identifier"
+      },
+      "SpearAttackPhalanxTrait": {
+        "en": "Triple Jab",
+        "zh": "三重刺击",
+        "source": "game-official-zh-CN"
+      },
+      "SpearAutoAttack": {
+        "en": "Flurry Jab",
+        "zh": "暴雨突刺",
+        "source": "game-official-zh-CN"
+      },
+      "SpearBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "SpearDashMultiStrike": {
+        "en": "Serrated Point",
+        "zh": "锯齿尖枪",
+        "source": "game-official-zh-CN"
+      },
+      "SpearMultiAttack": {
+        "en": "Spear Multi Attack",
+        "zh": "Spear 多重攻击",
+        "source": "split-identifier"
+      },
+      "SpearReachAttack": {
+        "en": "Extending Jab",
+        "zh": "延展锐矛",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinAura": {
+        "en": "Echo Spin",
+        "zh": "旋转音波",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinChargeAreaDamageTrait": {
+        "en": "Flaring Spin",
+        "zh": "烈焰扫击",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinChargeLevelTime": {
+        "en": "Quick Spin",
+        "zh": "疾速扫击",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinDamageRadius": {
+        "en": "Massive Spin",
+        "zh": "横扫千军",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinDoubleStrike": {
+        "en": "Spear Spin Double Strike",
+        "zh": "Spear 旋转双击",
+        "source": "split-identifier"
+      },
+      "SpearSpinTravel": {
+        "en": "Aspect of Guan Yu",
+        "zh": "关羽形态",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinTravelDurationTrait": {
+        "en": "Winged Serpent",
+        "zh": "青龙偃月",
+        "source": "game-official-zh-CN"
+      },
+      "SpearSpinTravelRadiusDamageTrait": {
+        "en": "Spear Spin Travel Radius Damage Trait",
+        "zh": "Spear Spin 旅行半径损害轨道",
+        "source": "split-identifier"
+      },
+      "SpearTeleportTrait": {
+        "en": "Aspect of Achilles",
+        "zh": "阿喀琉斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowBounce": {
+        "en": "Chain Skewer",
+        "zh": "索敌飞矛",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowCritical": {
+        "en": "Vicious Skewer",
+        "zh": "夺命飞矛",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowElectiveCharge": {
+        "en": "Charged Skewer",
+        "zh": "贯力飞矛",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowExplode": {
+        "en": "Exploding Launcher",
+        "zh": "爆裂飞弹",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowFarRangeDamage": {
+        "en": "Javelin Throw",
+        "zh": "标枪投掷",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowObjectAOETrait": {
+        "en": "Pulse Driver",
+        "zh": "无尽枪刺",
+        "source": "game-official-zh-CN"
+      },
+      "SpearThrowPenetrate": {
+        "en": "Breaching Skewer",
+        "zh": "破甲飞槊",
+        "source": "game-official-zh-CN"
+      },
+      "SpearWeaveTrait": {
+        "en": "Aspect of Hades",
+        "zh": "哈迪斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "SpeedDamageTrait": {
+        "en": "Rush Delivery",
+        "zh": "欲速则达",
+        "source": "game-official-zh-CN"
+      },
+      "StationaryRiftTrait": {
+        "en": "Freezing Vortex",
+        "zh": "冰寒风暴",
+        "source": "game-official-zh-CN"
+      },
+      "StatusImmunityTrait": {
+        "en": "Unshakable Mettle",
+        "zh": "无匹之力",
+        "source": "game-official-zh-CN"
+      },
+      "SuperGenerationTrait": {
+        "en": "Clouded Judgment",
+        "zh": "大发雷霆",
+        "source": "game-official-zh-CN"
+      },
+      "SuperTemporaryBoonRarityTrait": {
+        "en": "Super Temporary Boon Rarity Trait",
+        "zh": "超级临时 Boon Rary 拖车",
+        "source": "split-identifier"
+      },
+      "SwordAmmoWaveTrait": {
+        "en": "Sword Ammo Wave Trait",
+        "zh": "剑阿摩浪轨迹",
+        "source": "split-identifier"
+      },
+      "SwordBackstabTrait": {
+        "en": "Shadow Slash",
+        "zh": "阴刀暗剑",
+        "source": "game-official-zh-CN"
+      },
+      "SwordBaseUpgradeTrait": {
+        "en": "Aspect of Zagreus",
+        "zh": "扎格列欧斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "SwordBlinkTrait": {
+        "en": "Dash Nova",
+        "zh": "突刺剑震",
+        "source": "game-official-zh-CN"
+      },
+      "SwordConsecrationBoostTrait": {
+        "en": "Greater Consecration",
+        "zh": "至高无上",
+        "source": "game-official-zh-CN"
+      },
+      "SwordConsecrationTrait": {
+        "en": "Aspect of Arthur",
+        "zh": "亚瑟形态",
+        "source": "game-official-zh-CN"
+      },
+      "SwordConsecutiveFirstStrikeTrait": {
+        "en": "Concentrated Strike",
+        "zh": "集中火力",
+        "source": "game-official-zh-CN"
+      },
+      "SwordCriticalParryTrait": {
+        "en": "Aspect of Nemesis",
+        "zh": "涅墨西斯形态",
+        "source": "game-official-zh-CN"
+      },
+      "SwordCriticalTrait": {
+        "en": "Cruel Thrust",
+        "zh": "夺命刺剑",
+        "source": "game-official-zh-CN"
+      },
+      "SwordCursedLifeStealTrait": {
+        "en": "Cursed Slash",
+        "zh": "咒诅斩击",
+        "source": "game-official-zh-CN"
+      },
+      "SwordDoubleDashAttackTrait": {
+        "en": "Double Edge",
+        "zh": "双刃击剑",
+        "source": "game-official-zh-CN"
+      },
+      "SwordGoldDamageTrait": {
+        "en": "Hoarding Slash",
+        "zh": "聚财一击",
+        "source": "game-official-zh-CN"
+      },
+      "SwordHealthBufferDamageTrait": {
+        "en": "Breaching Slash",
+        "zh": "破甲重剑",
+        "source": "game-official-zh-CN"
+      },
+      "SwordHeavySecondStrikeTrait": {
+        "en": "World Splitter",
+        "zh": "力劈天下",
+        "source": "game-official-zh-CN"
+      },
+      "SwordRandomExplosionTrait": {
+        "en": "Firework Slash",
+        "zh": "爆破击杀",
+        "source": "game-official-zh-CN"
+      },
+      "SwordSecondaryAreaDamageTrait": {
+        "en": "Super Nova",
+        "zh": "剑震四方",
+        "source": "game-official-zh-CN"
+      },
+      "SwordSecondaryBlinkTrait": {
+        "en": "Instant Nova",
+        "zh": "闪电暴击",
+        "source": "game-official-zh-CN"
+      },
+      "SwordSecondaryDoubleAttackTrait": {
+        "en": "Double Nova",
+        "zh": "剑震不绝",
+        "source": "game-official-zh-CN"
+      },
+      "SwordSecondaryNovaWaveTrait": {
+        "en": "Sword Secondary Nova Wave Trait",
+        "zh": "剑第二新浪电车",
+        "source": "split-identifier"
+      },
+      "SwordSecondaryReflectionTrait": {
+        "en": "Sword Secondary Reflection Trait",
+        "zh": "剑的二次反射",
+        "source": "split-identifier"
+      },
+      "SwordSecondaryWaveTrait": {
+        "en": "Sword Secondary Wave Trait",
+        "zh": "剑的二次波纹",
+        "source": "split-identifier"
+      },
+      "SwordThirdStrikeChargeTrait": {
+        "en": "Massive Thrust",
+        "zh": "暴击刺杀",
+        "source": "game-official-zh-CN"
+      },
+      "SwordThrustWaveTrait": {
+        "en": "Piercing Wave",
+        "zh": "剑气逼人",
+        "source": "game-official-zh-CN"
+      },
+      "SwordTwoComboTrait": {
+        "en": "Flurry Slash",
+        "zh": "极速砍杀",
+        "source": "game-official-zh-CN"
+      },
+      "SynergyTrait": {
+        "en": "Synergy Trait",
+        "zh": "协同轨道",
+        "source": "split-identifier"
+      },
+      "TemporaryAlphaStrikeTrait": {
+        "en": "Eris Bangle",
+        "zh": "厄里斯的手环",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryArmorDamageTrait": {
+        "en": "Nail of Talos",
+        "zh": "塔罗斯的钉子",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryBackstabTrait": {
+        "en": "Nemesis Crest",
+        "zh": "涅墨西斯的徽证",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryBlockCrusherEnemiesTrait": {
+        "en": "Temporary Block Crusher Enemies Trait",
+        "zh": "临时区块粉碎敌人",
+        "source": "split-identifier"
+      },
+      "TemporaryBlockExplodingChariotsTrait": {
+        "en": "Flame Wheels Release",
+        "zh": "火焰战车卸任",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryBonusDamageTrait": {
+        "en": "Temporary Bonus Damage Trait",
+        "zh": "临时奖金损失",
+        "source": "split-identifier"
+      },
+      "TemporaryBoonRarityTrait": {
+        "en": "Yarn of Ariadne",
+        "zh": "阿里阿德涅的纱线",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryBossDamageTrait": {
+        "en": "Temporary Boss Damage Trait",
+        "zh": "临时老板损害通道",
+        "source": "split-identifier"
+      },
+      "TemporaryDoorHealTrait": {
+        "en": "HydraLite",
+        "zh": "九头蛇轻饮",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryDoorHealTrait_Patroclus": {
+        "en": "HydraLite Gold",
+        "zh": "九头蛇轻饮·金典",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryForcedChallengeSwitchTrait": {
+        "en": "Trove Tracker",
+        "zh": "宝藏追踪器",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryForcedFishingPointTrait": {
+        "en": "Skeletal Lure",
+        "zh": "枯骨之诱",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryForcedSecretDoorTrait": {
+        "en": "Light of Ixion",
+        "zh": "伊克西翁之光",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryImprovedRangedTrait": {
+        "en": "Braid of Atlas",
+        "zh": "阿特拉斯穗带",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryImprovedSecondaryTrait": {
+        "en": "Chimaera Jerky",
+        "zh": "奇美拉肉干",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryImprovedTrapDamageTrait": {
+        "en": "Stygian Shard",
+        "zh": "冥界碎片",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryImprovedWeaponTrait": {
+        "en": "Cyclops Jerky",
+        "zh": "库克罗普斯肉干",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryImprovedWeaponTrait_Patroclus": {
+        "en": "Cyclops Jerky Select",
+        "zh": "库克罗普斯肉干精选",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryLastStandHealTrait": {
+        "en": "Touch of Styx",
+        "zh": "冥河之抚",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryMoreAmmoTrait": {
+        "en": "Prometheus Stone",
+        "zh": "普罗米修斯之石",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryMoveSpeedTrait": {
+        "en": "Ignited Ichor",
+        "zh": "燃烧灵液",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryPoisonImmunityTrait": {
+        "en": "Temporary Poison Immunity Trait",
+        "zh": "临时毒性豁免",
+        "source": "split-identifier"
+      },
+      "TemporaryPreloadSuperGenerationTrait": {
+        "en": "Aether Net",
+        "zh": "虚空捕网",
+        "source": "game-official-zh-CN"
+      },
+      "TemporaryTempHealthTrait": {
+        "en": "Temporary Temp Health Trait",
+        "zh": "临时保健通道",
+        "source": "split-identifier"
+      },
+      "TemporaryThanatosSummonerTrait": {
+        "en": "Temporary Thanatos Summoner Trait",
+        "zh": "临时Thanatos 调试轨道",
+        "source": "split-identifier"
+      },
+      "TemporaryWeaponLifeOnKillTrait": {
+        "en": "Eye of Lamia",
+        "zh": "拉米亚之眼",
+        "source": "game-official-zh-CN"
+      },
+      "TempSwordUpgrade": {
+        "en": "Temp Sword Upgrade",
+        "zh": "时间剑升级",
+        "source": "split-identifier"
+      },
+      "TempSwordUpgrade2": {
+        "en": "Temp Sword Upgrade2",
+        "zh": "时间剑升级2",
+        "source": "split-identifier"
+      },
+      "ThanatosAssistTrait": {
+        "en": "Companion Mort",
+        "zh": "伴偶莫特",
+        "source": "game-official-zh-CN"
+      },
+      "TrapDamageTrait": {
+        "en": "Sure Footing",
+        "zh": "沉稳步伐",
+        "source": "game-official-zh-CN"
+      },
+      "TriggerCurseTrait": {
+        "en": "Merciful End",
+        "zh": "仁慈解脱",
+        "source": "game-official-zh-CN"
+      },
+      "UnstoredAmmoDamageTrait": {
+        "en": "Bad News",
+        "zh": "当头一棒",
+        "source": "game-official-zh-CN"
+      },
+      "UnusedWeaponBonusTrait": {
+        "en": "Dark Thirst",
+        "zh": "黑暗渴望",
+        "source": "game-official-zh-CN"
+      },
+      "UnusedWeaponBonusTraitAddGems": {
+        "en": "Darker Thirst",
+        "zh": "至暗渴望",
+        "source": "game-official-zh-CN"
+      },
+      "UpgradedTemporaryLastStandHealTrait": {
+        "en": "Touch of Styx Dark",
+        "zh": "冥河之抚·黑金",
+        "source": "game-official-zh-CN"
+      },
+      "VanillaTrait": {
+        "en": "Shattered Shackle",
+        "zh": "破碎枷锁",
+        "source": "game-official-zh-CN"
+      },
+      "WeaponEnchantmentTrait": {
+        "en": "Weapon Enchantment Trait",
+        "zh": "武器控制轨道",
+        "source": "split-identifier"
+      },
+      "WeaponTrait": {
+        "en": "Weapon Trait",
+        "zh": "武器托盘",
+        "source": "split-identifier"
+      },
+      "WrathDamageBuffTrait": {
+        "en": "Wrath Damage Buff Trait",
+        "zh": "Buff Trait 损失",
+        "source": "split-identifier"
+      },
+      "ZeroAmmoBonusTrait": {
+        "en": "Ravenous Will",
+        "zh": "求生意志",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusBoltAoETrait": {
+        "en": "High Voltage",
+        "zh": "高压雷击",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusBonusBoltTrait": {
+        "en": "Double Strike",
+        "zh": "双重雷击",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusBonusBounceTrait": {
+        "en": "Storm Lightning",
+        "zh": "风暴闪电",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusChargedBoltTrait": {
+        "en": "Splitting Bolt",
+        "zh": "闪电裂变",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusLightningDebuff": {
+        "en": "Static Discharge",
+        "zh": "静电释放",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusRangedTrait": {
+        "en": "Electric Shot",
+        "zh": "雷霆射击",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusReflectSparkTrait": {
+        "en": "Zeus Reflect Spark Trait",
+        "zh": "宙斯反射火花轨迹",
+        "source": "split-identifier"
+      },
+      "ZeusRushTrait": {
+        "en": "Thunder Dash",
+        "zh": "雷霆冲刺",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusSecondaryTrait": {
+        "en": "Thunder Flourish",
+        "zh": "雷霆乱舞",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusShoutTrait": {
+        "en": "Zeus' Aid",
+        "zh": "宙斯之援",
+        "source": "game-official-zh-CN"
+      },
+      "ZeusWeaponTrait": {
+        "en": "Lightning Strike",
+        "zh": "闪电攻击",
+        "source": "game-official-zh-CN"
+      }
+    },
+    "weapons": {
+      "BowWeapon": {
+        "en": "Heart-Seeking Bow",
+        "zh": "索心弓",
+        "source": "game-official-zh-CN"
+      },
+      "FistWeapon": {
+        "en": "Twin Fists",
+        "zh": "双子之拳",
+        "source": "game-official-zh-CN"
+      },
+      "GunWeapon": {
+        "en": "Adamant Rail",
+        "zh": "狮鹫坚炮",
+        "source": "game-official-zh-CN"
+      },
+      "ShieldWeapon": {
+        "en": "Shield of Chaos",
+        "zh": "混沌之盾",
+        "source": "game-official-zh-CN"
+      },
+      "SpearWeapon": {
+        "en": "Eternal Spear",
+        "zh": "永恒之矛",
+        "source": "game-official-zh-CN"
+      },
+      "SwordWeapon": {
+        "en": "Stygian Blade",
+        "zh": "冥界之刃",
+        "source": "game-official-zh-CN"
+      }
+    }
+  }
+}
